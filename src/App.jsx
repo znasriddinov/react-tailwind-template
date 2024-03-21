@@ -1,8 +1,13 @@
-import { useState } from "react";
-import viteLogo from "/vite.svg";
+import { useEffect, useState } from "react";
 
 function App() {
-  return <></>;
+  return (
+    <div>
+      <header></header>
+      <main></main>
+      <footer></footer>
+    </div>
+  );
 }
 
 export default App;
